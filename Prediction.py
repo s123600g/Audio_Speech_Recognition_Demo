@@ -195,6 +195,8 @@ if __name__ == "__main__":
 
                         get_prediction_index = np.argmax(predict_result[0])
 
+                        # print("{:.2f}%".format(
+                        #     (predict_result[0][get_prediction_index] * 100)))
                         # print("{}".format(get_prediction_index))
 
                         ''' 查詢預測出來分類編號對應分類名稱 '''
@@ -213,14 +215,16 @@ if __name__ == "__main__":
                         ''' 判斷識別分類結果是否正確 '''
                         if SQL_result[0][0] == read_item:
 
-                            print("(O) [ {} ] ---> [ '{}' ]".format(
+                            print("(O) [ {} ] ---> [ '{}' ]({:.2f}%)".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
-                            filewrite.write("(O) [ {} ] ---> ['{}']\n".format(
+                            filewrite.write("(O) [ {} ] ---> ['{}']({:.2f}%)\n".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
                             correct_count += 1
@@ -228,14 +232,16 @@ if __name__ == "__main__":
 
                         else:
 
-                            print("(X) [ {} ] ---> [ '{}' ]".format(
+                            print("(X) [ {} ] ---> [ '{}' ]({:.2f}%)".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
-                            filewrite.write("(X) [ {} ] ---> ['{}']\n".format(
+                            filewrite.write("(X) [ {} ] ---> ['{}']({:.2f}%)\n".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
                             err_count += 1
