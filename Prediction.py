@@ -22,6 +22,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 '''
 
 from keras.models import load_model
@@ -195,8 +196,6 @@ if __name__ == "__main__":
 
                         get_prediction_index = np.argmax(predict_result[0])
 
-                        # print("{:.2f}%".format(
-                        #     (predict_result[0][get_prediction_index] * 100)))
                         # print("{}".format(get_prediction_index))
 
                         ''' 查詢預測出來分類編號對應分類名稱 '''
@@ -215,16 +214,14 @@ if __name__ == "__main__":
                         ''' 判斷識別分類結果是否正確 '''
                         if SQL_result[0][0] == read_item:
 
-                            print("(O) [ {} ] ---> [ '{}' ]({:.2f}%)".format(
+                            print("(O) [ {} ] ---> [ '{}' ]".format(
                                 read_file,
-                                SQL_result[0][0],
-                                (predict_result[0][get_prediction_index] * 100)
+                                SQL_result[0][0]
                             ))
 
-                            filewrite.write("(O) [ {} ] ---> ['{}']({:.2f}%)\n".format(
+                            filewrite.write("(O) [ {} ] ---> ['{}']\n".format(
                                 read_file,
-                                SQL_result[0][0],
-                                (predict_result[0][get_prediction_index] * 100)
+                                SQL_result[0][0]
                             ))
 
                             correct_count += 1
@@ -232,16 +229,14 @@ if __name__ == "__main__":
 
                         else:
 
-                            print("(X) [ {} ] ---> [ '{}' ]({:.2f}%)".format(
+                            print("(X) [ {} ] ---> [ '{}' ]".format(
                                 read_file,
-                                SQL_result[0][0],
-                                (predict_result[0][get_prediction_index] * 100)
+                                SQL_result[0][0]
                             ))
 
-                            filewrite.write("(X) [ {} ] ---> ['{}']({:.2f}%)\n".format(
+                            filewrite.write("(X) [ {} ] ---> ['{}']\n".format(
                                 read_file,
-                                SQL_result[0][0],
-                                (predict_result[0][get_prediction_index] * 100)
+                                SQL_result[0][0]
                             ))
 
                             err_count += 1
