@@ -23,15 +23,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-
-http://noahsnail.com/2017/04/29/2017-4-29-matplotlib%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95(%E5%9B%9B)%E2%80%94%E2%80%94%E8%AE%BE%E7%BD%AElegend%E5%9B%BE%E4%BE%8B/
-https://blog.csdn.net/Quincuntial/article/details/70947363
-https://www.jianshu.com/p/91eb0d616adb
 '''
 
 import matplotlib.pyplot as plt
 import os
+
+'''
+http://noahsnail.com/2017/04/29/2017-4-29-matplotlib%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95(%E5%9B%9B)%E2%80%94%E2%80%94%E8%AE%BE%E7%BD%AElegend%E5%9B%BE%E4%BE%8B/
+https://blog.csdn.net/Quincuntial/article/details/70947363
+https://www.jianshu.com/p/91eb0d616adb
+'''
 
 
 def plot_figure(history, dir, figure_classname):

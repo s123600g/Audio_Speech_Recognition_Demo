@@ -1,482 +1,482 @@
 >>> Folder name [ 'backward' ] recognition result¡G
-(O) [ ff2b842e_nohash_0.wav ] ---> ['backward']
-(X) [ ff2b842e_nohash_1.wav ] ---> ['happy']
-(X) [ ff2b842e_nohash_2.wav ] ---> ['happy']
-(X) [ ff2b842e_nohash_3.wav ] ---> ['happy']
-(X) [ ff2b842e_nohash_4.wav ] ---> ['happy']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['backward']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['visual']
-(X) [ ff4ed4f3_nohash_2.wav ] ---> ['no']
-(X) [ ff4ed4f3_nohash_3.wav ] ---> ['visual']
-(X) [ ffea4a57_nohash_0.wav ] ---> ['nine']
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['backward'](99.87%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['backward'](99.86%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['backward'](99.92%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['backward'](90.06%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['backward'](99.86%)
+(O) [ 0a396ff2_nohash_0.txt ] ---> ['backward'](98.99%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['backward'](99.14%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['backward'](91.12%)
+(O) [ 0b7ee1a0_nohash_1.txt ] ---> ['backward'](99.14%)
+(O) [ 0b7ee1a0_nohash_2.txt ] ---> ['backward'](98.74%)
 ----------------------------------------------
 The label ['backward'] recognition result¡G
-correct   total: 2 count.
-incorrect total: 8 count.
+correct   total: 10 count.
+incorrect total: 0 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'bed' ] recognition result¡G
-(O) [ fe1916ba_nohash_0.wav ] ---> ['bed']
-(O) [ fe291fa9_nohash_0.wav ] ---> ['bed']
-(X) [ ff0e27c3_nohash_0.wav ] ---> ['zero']
-(X) [ ff2b842e_nohash_0.wav ] ---> ['nine']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['learn']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['bed']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['bed']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['visual']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['bed']
-(X) [ fffcabd1_nohash_1.wav ] ---> ['learn']
+(O) [ 00f0204f_nohash_0.txt ] ---> ['bed'](99.44%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['bed'](97.21%)
+(X) [ 0a196374_nohash_0.txt ] ---> ['eight'](97.23%)
+(X) [ 0a7c2a8d_nohash_0.txt ] ---> ['one'](79.18%)
+(X) [ 0b09edd3_nohash_0.txt ] ---> ['seven'](47.14%)
+(O) [ 0b56bcfe_nohash_0.txt ] ---> ['bed'](94.06%)
+(X) [ 0b77ee66_nohash_0.txt ] ---> ['marvin'](76.04%)
+(O) [ 0b77ee66_nohash_1.txt ] ---> ['bed'](94.43%)
+(O) [ 0b77ee66_nohash_2.txt ] ---> ['bed'](93.21%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['bed'](99.05%)
 ----------------------------------------------
 The label ['bed'] recognition result¡G
-correct   total: 5 count.
-incorrect total: 5 count.
+correct   total: 6 count.
+incorrect total: 4 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'bird' ] recognition result¡G
-(X) [ ff0e27c3_nohash_0.wav ] ---> ['bed']
-(X) [ ff0e27c3_nohash_1.wav ] ---> ['no']
-(X) [ ff2b842e_nohash_0.wav ] ---> ['three']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['learn']
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['three']
-(X) [ ff63ab0b_nohash_1.wav ] ---> ['three']
-(X) [ ff63ab0b_nohash_2.wav ] ---> ['two']
-(X) [ ffb86d3c_nohash_0.wav ] ---> ['marvin']
-(X) [ ffb86d3c_nohash_1.wav ] ---> ['forward']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['learn']
+(O) [ 00b01445_nohash_0.txt ] ---> ['bird'](99.13%)
+(X) [ 00f0204f_nohash_0.txt ] ---> ['bed'](58.04%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['bird'](99.88%)
+(O) [ 00f0204f_nohash_2.txt ] ---> ['bird'](98.06%)
+(O) [ 00f0204f_nohash_3.txt ] ---> ['bird'](99.82%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['bird'](87.45%)
+(X) [ 0a7c2a8d_nohash_1.txt ] ---> ['three'](99.97%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['bird'](99.99%)
+(O) [ 0a9f9af7_nohash_1.txt ] ---> ['bird'](99.92%)
+(O) [ 0a9f9af7_nohash_2.txt ] ---> ['bird'](99.30%)
 ----------------------------------------------
 The label ['bird'] recognition result¡G
-correct   total: 0 count.
-incorrect total: 10 count.
+correct   total: 8 count.
+incorrect total: 2 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'cat' ] recognition result¡G
-(X) [ fe1916ba_nohash_0.wav ] ---> ['seven']
-(O) [ fe291fa9_nohash_0.wav ] ---> ['cat']
-(O) [ fe291fa9_nohash_1.wav ] ---> ['cat']
-(X) [ ff21fb59_nohash_0.wav ] ---> ['bird']
-(X) [ ff21fb59_nohash_1.wav ] ---> ['house']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['yes']
-(X) [ ffa76c4a_nohash_0.wav ] ---> ['bed']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['cat']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['stop']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['house']
+(O) [ 00b01445_nohash_0.txt ] ---> ['cat'](96.87%)
+(O) [ 00f0204f_nohash_0.txt ] ---> ['cat'](87.68%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['cat'](98.00%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['cat'](98.68%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['cat'](94.52%)
+(O) [ 0ab3b47d_nohash_0.txt ] ---> ['cat'](99.36%)
+(O) [ 0ab3b47d_nohash_1.txt ] ---> ['cat'](99.64%)
+(O) [ 0ac15fe9_nohash_0.txt ] ---> ['cat'](99.63%)
+(X) [ 0b09edd3_nohash_0.txt ] ---> ['happy'](73.44%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['cat'](91.10%)
 ----------------------------------------------
 The label ['cat'] recognition result¡G
-correct   total: 3 count.
-incorrect total: 7 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'dog' ] recognition result¡G
-(X) [ ff0e27c3_nohash_1.wav ] ---> ['two']
-(X) [ ff0e27c3_nohash_2.wav ] ---> ['zero']
-(X) [ ff2b842e_nohash_0.wav ] ---> ['down']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['no']
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['go']
-(O) [ ff63ab0b_nohash_1.wav ] ---> ['dog']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['dog']
-(O) [ ffb86d3c_nohash_1.wav ] ---> ['dog']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['down']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['dog']
-----------------------------------------------
-The label ['dog'] recognition result¡G
-correct   total: 4 count.
-incorrect total: 6 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'down' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['no']
-(X) [ ff2b842e_nohash_3.wav ] ---> ['nine']
-(X) [ ff2b842e_nohash_4.wav ] ---> ['seven']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['down']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['dog']
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['go']
-(O) [ ffa76c4a_nohash_0.wav ] ---> ['down']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['down']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['dog']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['follow']
-----------------------------------------------
-The label ['down'] recognition result¡G
-correct   total: 3 count.
-incorrect total: 7 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'eight' ] recognition result¡G
-(O) [ ff2b842e_nohash_2.wav ] ---> ['eight']
-(X) [ ff2b842e_nohash_3.wav ] ---> ['three']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['zero']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['visual']
-(X) [ ff4ed4f3_nohash_2.wav ] ---> ['two']
-(X) [ ffb86d3c_nohash_0.wav ] ---> ['six']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['eight']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['eight']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['eight']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['eight']
-----------------------------------------------
-The label ['eight'] recognition result¡G
-correct   total: 5 count.
-incorrect total: 5 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'five' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['marvin']
-(X) [ ff21fb59_nohash_1.wav ] ---> ['dog']
-(O) [ ff4ed4f3_nohash_3.wav ] ---> ['five']
-(O) [ ff4ed4f3_nohash_4.wav ] ---> ['five']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['five']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['five']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['on']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['on']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['five']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['five']
-----------------------------------------------
-The label ['five'] recognition result¡G
-correct   total: 6 count.
-incorrect total: 4 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'follow' ] recognition result¡G
-(X) [ fe11e258_nohash_0.wav ] ---> ['go']
-(X) [ ff2b842e_nohash_0.wav ] ---> ['down']
-(X) [ ff2b842e_nohash_1.wav ] ---> ['down']
-(O) [ ff2b842e_nohash_2.wav ] ---> ['follow']
-(X) [ ff2b842e_nohash_3.wav ] ---> ['down']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['follow']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['go']
-(X) [ ff4ed4f3_nohash_2.wav ] ---> ['zero']
-(X) [ ff4ed4f3_nohash_3.wav ] ---> ['seven']
-(X) [ ff4ed4f3_nohash_4.wav ] ---> ['no']
-----------------------------------------------
-The label ['follow'] recognition result¡G
-correct   total: 2 count.
-incorrect total: 8 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'forward' ] recognition result¡G
-(X) [ fe11e258_nohash_1.wav ] ---> ['two']
-(O) [ ff2b842e_nohash_0.wav ] ---> ['forward']
-(X) [ ff2b842e_nohash_1.wav ] ---> ['three']
-(X) [ ff2b842e_nohash_2.wav ] ---> ['three']
-(O) [ ff2b842e_nohash_3.wav ] ---> ['forward']
-(X) [ ff2b842e_nohash_4.wav ] ---> ['happy']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['follow']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['visual']
-(X) [ ff4ed4f3_nohash_2.wav ] ---> ['one']
-(X) [ ff4ed4f3_nohash_3.wav ] ---> ['marvin']
-----------------------------------------------
-The label ['forward'] recognition result¡G
-correct   total: 2 count.
-incorrect total: 8 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'four' ] recognition result¡G
-(O) [ ff21fb59_nohash_1.wav ] ---> ['four']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['four']
-(O) [ ffb86d3c_nohash_1.wav ] ---> ['four']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['stop']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['go']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['forward']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['four']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['four']
-(O) [ ffd2ba2f_nohash_4.wav ] ---> ['four']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['four']
-----------------------------------------------
-The label ['four'] recognition result¡G
-correct   total: 7 count.
-incorrect total: 3 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'go' ] recognition result¡G
-(X) [ ff2b842e_nohash_3.wav ] ---> ['two']
-(X) [ ff2b842e_nohash_4.wav ] ---> ['eight']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['marvin']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['learn']
-(X) [ ff4ed4f3_nohash_2.wav ] ---> ['learn']
-(X) [ ffa76c4a_nohash_0.wav ] ---> ['follow']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['follow']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['go']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['follow']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['go']
-----------------------------------------------
-The label ['go'] recognition result¡G
-correct   total: 2 count.
-incorrect total: 8 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'happy' ] recognition result¡G
-(O) [ ff21fb59_nohash_0.wav ] ---> ['happy']
-(X) [ ff21fb59_nohash_1.wav ] ---> ['go']
-(X) [ ff21fb59_nohash_2.wav ] ---> ['two']
-(O) [ ff21fb59_nohash_3.wav ] ---> ['happy']
-(O) [ ff2b842e_nohash_0.wav ] ---> ['happy']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['happy']
-(O) [ ffa76c4a_nohash_0.wav ] ---> ['happy']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['happy']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['happy']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['happy']
-----------------------------------------------
-The label ['happy'] recognition result¡G
-correct   total: 8 count.
-incorrect total: 2 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'house' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['sheila']
-(O) [ ff2b842e_nohash_0.wav ] ---> ['house']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['on']
-(X) [ ffa76c4a_nohash_0.wav ] ---> ['up']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['house']
-(O) [ ffb86d3c_nohash_1.wav ] ---> ['house']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['off']
-(X) [ ffea4a57_nohash_0.wav ] ---> ['marvin']
-(X) [ ffea4a57_nohash_1.wav ] ---> ['wow']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['house']
-----------------------------------------------
-The label ['house'] recognition result¡G
-correct   total: 4 count.
-incorrect total: 6 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'learn' ] recognition result¡G
-(X) [ fe11e258_nohash_0.wav ] ---> ['three']
-(X) [ ff0e27c3_nohash_0.wav ] ---> ['zero']
-(X) [ ff2b842e_nohash_0.wav ] ---> ['marvin']
-(X) [ ff2b842e_nohash_1.wav ] ---> ['nine']
-(O) [ ff2b842e_nohash_2.wav ] ---> ['learn']
-(X) [ ff2b842e_nohash_3.wav ] ---> ['happy']
-(X) [ ff2b842e_nohash_4.wav ] ---> ['nine']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['learn']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['marvin']
-(X) [ ff4ed4f3_nohash_2.wav ] ---> ['two']
-----------------------------------------------
-The label ['learn'] recognition result¡G
-correct   total: 2 count.
-incorrect total: 8 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'left' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['dog']
-(X) [ ff4ed4f3_nohash_2.wav ] ---> ['visual']
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['learn']
-(O) [ ffa76c4a_nohash_0.wav ] ---> ['left']
-(O) [ ffa76c4a_nohash_1.wav ] ---> ['left']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['left']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['left']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['left']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['yes']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['left']
-----------------------------------------------
-The label ['left'] recognition result¡G
-correct   total: 6 count.
-incorrect total: 4 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'marvin' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['go']
-(O) [ ff21fb59_nohash_1.wav ] ---> ['marvin']
-(O) [ ff21fb59_nohash_2.wav ] ---> ['marvin']
-(O) [ ff21fb59_nohash_3.wav ] ---> ['marvin']
-(O) [ ff63ab0b_nohash_0.wav ] ---> ['marvin']
-(O) [ ff63ab0b_nohash_1.wav ] ---> ['marvin']
-(O) [ ffa76c4a_nohash_0.wav ] ---> ['marvin']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['marvin']
-(X) [ fffcabd1_nohash_0.wav ] ---> ['bed']
-(O) [ fffcabd1_nohash_1.wav ] ---> ['marvin']
-----------------------------------------------
-The label ['marvin'] recognition result¡G
-correct   total: 8 count.
-incorrect total: 2 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'nine' ] recognition result¡G
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['nine']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['nine']
-(X) [ ffbb695d_nohash_1.wav ] ---> ['no']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['down']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['five']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['nine']
-(X) [ ffd2ba2f_nohash_3.wav ] ---> ['seven']
-(X) [ ffd2ba2f_nohash_4.wav ] ---> ['on']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['nine']
-(X) [ fffcabd1_nohash_1.wav ] ---> ['learn']
-----------------------------------------------
-The label ['nine'] recognition result¡G
-correct   total: 4 count.
-incorrect total: 6 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'no' ] recognition result¡G
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['go']
-(X) [ ff63ab0b_nohash_1.wav ] ---> ['seven']
-(X) [ ff63ab0b_nohash_2.wav ] ---> ['go']
-(O) [ ffa76c4a_nohash_0.wav ] ---> ['no']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['no']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['go']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['go']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['on']
-(X) [ ffd2ba2f_nohash_3.wav ] ---> ['dog']
-(X) [ fffcabd1_nohash_0.wav ] ---> ['yes']
-----------------------------------------------
-The label ['no'] recognition result¡G
-correct   total: 2 count.
-incorrect total: 8 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'off' ] recognition result¡G
-(X) [ ffa76c4a_nohash_2.wav ] ---> ['wow']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['off']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['off']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['off']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['off']
-(X) [ ffd2ba2f_nohash_3.wav ] ---> ['on']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['off']
-(X) [ fffcabd1_nohash_1.wav ] ---> ['house']
-(O) [ fffcabd1_nohash_2.wav ] ---> ['off']
-(O) [ fffcabd1_nohash_3.wav ] ---> ['off']
-----------------------------------------------
-The label ['off'] recognition result¡G
-correct   total: 7 count.
-incorrect total: 3 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'on' ] recognition result¡G
-(O) [ ff4ed4f3_nohash_2.wav ] ---> ['on']
-(O) [ ff4ed4f3_nohash_3.wav ] ---> ['on']
-(X) [ ff4ed4f3_nohash_4.wav ] ---> ['marvin']
-(O) [ ffa76c4a_nohash_0.wav ] ---> ['on']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['on']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['follow']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['learn']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['on']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['on']
-(X) [ ffd2ba2f_nohash_4.wav ] ---> ['five']
-----------------------------------------------
-The label ['on'] recognition result¡G
-correct   total: 6 count.
-incorrect total: 4 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'one' ] recognition result¡G
-(O) [ ff4ed4f3_nohash_2.wav ] ---> ['one']
-(O) [ ff63ab0b_nohash_0.wav ] ---> ['one']
-(O) [ ff63ab0b_nohash_1.wav ] ---> ['one']
-(O) [ ffa76c4a_nohash_0.wav ] ---> ['one']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['nine']
-(X) [ ffbb695d_nohash_1.wav ] ---> ['no']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['follow']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['on']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['on']
-(X) [ ffd2ba2f_nohash_3.wav ] ---> ['on']
-----------------------------------------------
-The label ['one'] recognition result¡G
-correct   total: 4 count.
-incorrect total: 6 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'right' ] recognition result¡G
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['six']
-(X) [ ffa76c4a_nohash_0.wav ] ---> ['marvin']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['right']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['bed']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['five']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['right']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['left']
-(X) [ ffd2ba2f_nohash_3.wav ] ---> ['marvin']
-(X) [ ffd2ba2f_nohash_4.wav ] ---> ['five']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['right']
-----------------------------------------------
-The label ['right'] recognition result¡G
-correct   total: 3 count.
-incorrect total: 7 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'seven' ] recognition result¡G
-(X) [ ff21fb59_nohash_1.wav ] ---> ['bird']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['seven']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['tree']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['two']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['seven']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['seven']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['seven']
-(O) [ ffd2ba2f_nohash_4.wav ] ---> ['seven']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['seven']
-(O) [ fffcabd1_nohash_1.wav ] ---> ['seven']
-----------------------------------------------
-The label ['seven'] recognition result¡G
-correct   total: 7 count.
-incorrect total: 3 count.
-----------------------------------------------
-
-                    
->>> Folder name [ 'sheila' ] recognition result¡G
-(O) [ ff21fb59_nohash_0.wav ] ---> ['sheila']
-(X) [ ff2b842e_nohash_0.wav ] ---> ['tree']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['sheila']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['sheila']
-(O) [ ffb86d3c_nohash_1.wav ] ---> ['sheila']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['sheila']
-(O) [ ffbb695d_nohash_1.wav ] ---> ['sheila']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['sheila']
-(O) [ fffcabd1_nohash_1.wav ] ---> ['sheila']
-(O) [ fffcabd1_nohash_2.wav ] ---> ['sheila']
-----------------------------------------------
-The label ['sheila'] recognition result¡G
 correct   total: 9 count.
 incorrect total: 1 count.
 ----------------------------------------------
 
                     
->>> Folder name [ 'six' ] recognition result¡G
-(X) [ ffa76c4a_nohash_3.wav ] ---> ['eight']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['six']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['eight']
-(X) [ ffbb695d_nohash_1.wav ] ---> ['eight']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['six']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['six']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['six']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['six']
-(O) [ ffd2ba2f_nohash_4.wav ] ---> ['six']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['six']
+>>> Folder name [ 'dog' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['dog'](98.78%)
+(O) [ 00f0204f_nohash_0.txt ] ---> ['dog'](91.77%)
+(X) [ 00f0204f_nohash_1.txt ] ---> ['house'](95.15%)
+(O) [ 00f0204f_nohash_2.txt ] ---> ['dog'](97.44%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['dog'](93.28%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['dog'](95.76%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['dog'](87.91%)
+(O) [ 0ab3b47d_nohash_0.txt ] ---> ['dog'](97.71%)
+(O) [ 0ac15fe9_nohash_0.txt ] ---> ['dog'](62.93%)
+(O) [ 0ac15fe9_nohash_1.txt ] ---> ['dog'](94.45%)
 ----------------------------------------------
-The label ['six'] recognition result¡G
+The label ['dog'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'down' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['down'](99.47%)
+(O) [ 00b01445_nohash_1.txt ] ---> ['down'](99.35%)
+(O) [ 00f0204f_nohash_0.txt ] ---> ['down'](94.89%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['down'](100.00%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['down'](97.58%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['down'](99.26%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['down'](98.57%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['down'](99.97%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['down'](99.66%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['down'](99.63%)
+----------------------------------------------
+The label ['down'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'eight' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['eight'](98.92%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['eight'](83.74%)
+(O) [ 0a196374_nohash_1.txt ] ---> ['eight'](99.82%)
+(O) [ 0a196374_nohash_2.txt ] ---> ['eight'](99.94%)
+(X) [ 0a2b400e_nohash_0.txt ] ---> ['right'](24.71%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['eight'](99.42%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['eight'](91.69%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['eight'](91.89%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['eight'](99.97%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['eight'](99.94%)
+----------------------------------------------
+The label ['eight'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'five' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['five'](96.08%)
+(X) [ 00b01445_nohash_1.txt ] ---> ['dog'](63.83%)
+(X) [ 00f0204f_nohash_0.txt ] ---> ['happy'](62.93%)
+(X) [ 0a2b400e_nohash_0.txt ] ---> ['right'](92.56%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['five'](99.49%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['five'](98.99%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['five'](99.99%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['five'](98.38%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['five'](97.69%)
+(O) [ 0a9f9af7_nohash_1.txt ] ---> ['five'](99.83%)
+----------------------------------------------
+The label ['five'] recognition result¡G
 correct   total: 7 count.
 incorrect total: 3 count.
 ----------------------------------------------
 
                     
+>>> Folder name [ 'follow' ] recognition result¡G
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['follow'](90.04%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['follow'](89.61%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['follow'](98.64%)
+(X) [ 0a2b400e_nohash_3.txt ] ---> ['stop'](78.92%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['follow'](99.98%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['follow'](95.86%)
+(X) [ 0b7ee1a0_nohash_1.txt ] ---> ['marvin'](62.55%)
+(O) [ 0b7ee1a0_nohash_2.txt ] ---> ['follow'](99.70%)
+(O) [ 0b7ee1a0_nohash_3.txt ] ---> ['follow'](92.32%)
+(O) [ 0b7ee1a0_nohash_4.txt ] ---> ['follow'](99.59%)
+----------------------------------------------
+The label ['follow'] recognition result¡G
+correct   total: 8 count.
+incorrect total: 2 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'forward' ] recognition result¡G
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['forward'](99.99%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['forward'](99.99%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['forward'](99.69%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['forward'](99.36%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['forward'](98.91%)
+(O) [ 0a5636ca_nohash_1.txt ] ---> ['forward'](97.94%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['forward'](97.59%)
+(O) [ 0b7ee1a0_nohash_1.txt ] ---> ['forward'](99.01%)
+(O) [ 0b7ee1a0_nohash_2.txt ] ---> ['forward'](91.53%)
+(O) [ 0ba018fc_nohash_0.txt ] ---> ['forward'](99.51%)
+----------------------------------------------
+The label ['forward'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'four' ] recognition result¡G
+(O) [ 00f0204f_nohash_0.txt ] ---> ['four'](77.89%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['four'](95.47%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['four'](96.23%)
+(O) [ 0a196374_nohash_1.txt ] ---> ['four'](98.55%)
+(O) [ 0a196374_nohash_2.txt ] ---> ['four'](79.37%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['four'](99.99%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['four'](90.36%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['four'](72.41%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['four'](99.28%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['four'](96.71%)
+----------------------------------------------
+The label ['four'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'go' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['go'](99.44%)
+(X) [ 00f0204f_nohash_0.txt ] ---> ['dog'](27.46%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['go'](99.91%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['go'](57.65%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['go'](97.47%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['go'](98.62%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['go'](91.38%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['go'](98.69%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['go'](99.59%)
+(O) [ 0a9f9af7_nohash_1.txt ] ---> ['go'](92.35%)
+----------------------------------------------
+The label ['go'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'happy' ] recognition result¡G
+(X) [ 0a196374_nohash_0.txt ] ---> ['cat'](45.42%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['happy'](95.78%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['happy'](92.76%)
+(O) [ 0a5636ca_nohash_1.txt ] ---> ['happy'](28.83%)
+(O) [ 0ab3b47d_nohash_0.txt ] ---> ['happy'](96.90%)
+(O) [ 0ac15fe9_nohash_0.txt ] ---> ['happy'](99.82%)
+(O) [ 0acc1ac5_nohash_0.txt ] ---> ['happy'](87.44%)
+(O) [ 0b09edd3_nohash_0.txt ] ---> ['happy'](94.51%)
+(O) [ 0b56bcfe_nohash_0.txt ] ---> ['happy'](96.54%)
+(O) [ 0b77ee66_nohash_0.txt ] ---> ['happy'](99.67%)
+----------------------------------------------
+The label ['happy'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'house' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['house'](99.29%)
+(O) [ 00b01445_nohash_1.txt ] ---> ['house'](97.67%)
+(O) [ 00b01445_nohash_2.txt ] ---> ['house'](98.44%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['house'](98.69%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['house'](45.13%)
+(O) [ 0a396ff2_nohash_0.txt ] ---> ['house'](97.48%)
+(X) [ 0a7c2a8d_nohash_0.txt ] ---> ['five'](36.44%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['house'](99.97%)
+(O) [ 0ab3b47d_nohash_0.txt ] ---> ['house'](98.22%)
+(O) [ 0ac15fe9_nohash_0.txt ] ---> ['house'](67.83%)
+----------------------------------------------
+The label ['house'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'learn' ] recognition result¡G
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['learn'](91.61%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['learn'](99.07%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['learn'](97.52%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['learn'](99.19%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['learn'](95.47%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['learn'](97.79%)
+(O) [ 0b7ee1a0_nohash_1.txt ] ---> ['learn'](98.37%)
+(O) [ 0b7ee1a0_nohash_2.txt ] ---> ['learn'](98.57%)
+(O) [ 0b7ee1a0_nohash_3.txt ] ---> ['learn'](93.87%)
+(O) [ 0b7ee1a0_nohash_4.txt ] ---> ['learn'](93.08%)
+----------------------------------------------
+The label ['learn'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'left' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['left'](99.82%)
+(O) [ 00f0204f_nohash_0.txt ] ---> ['left'](97.41%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['left'](98.39%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['left'](99.16%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['left'](93.99%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['left'](94.77%)
+(X) [ 0a2b400e_nohash_4.txt ] ---> ['yes'](90.58%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['left'](80.68%)
+(O) [ 0a7c2a8d_nohash_1.txt ] ---> ['left'](99.59%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['left'](99.87%)
+----------------------------------------------
+The label ['left'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'marvin' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['marvin'](99.51%)
+(O) [ 00b01445_nohash_1.txt ] ---> ['marvin'](98.71%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['marvin'](92.68%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['marvin'](89.44%)
+(O) [ 0a5636ca_nohash_1.txt ] ---> ['marvin'](99.61%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['marvin'](90.97%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['marvin'](99.08%)
+(O) [ 0a9f9af7_nohash_1.txt ] ---> ['marvin'](99.00%)
+(O) [ 0a9f9af7_nohash_2.txt ] ---> ['marvin'](99.99%)
+(O) [ 0ac15fe9_nohash_0.txt ] ---> ['marvin'](99.73%)
+----------------------------------------------
+The label ['marvin'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'nine' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['nine'](99.30%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['nine'](93.63%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['nine'](90.20%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['nine'](97.74%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['nine'](96.55%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['nine'](97.36%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['nine'](96.11%)
+(O) [ 0a7c2a8d_nohash_1.txt ] ---> ['nine'](98.84%)
+(O) [ 0a7c2a8d_nohash_2.txt ] ---> ['nine'](92.74%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['nine'](96.19%)
+----------------------------------------------
+The label ['nine'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'no' ] recognition result¡G
+(X) [ 0a2b400e_nohash_0.txt ] ---> ['stop'](70.46%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['no'](97.38%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['no'](99.98%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['no'](98.78%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['no'](93.95%)
+(X) [ 0a396ff2_nohash_0.txt ] ---> ['wow'](50.35%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['no'](54.12%)
+(X) [ 0a5636ca_nohash_1.txt ] ---> ['sheila'](21.35%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['no'](95.06%)
+(X) [ 0a9f9af7_nohash_1.txt ] ---> ['nine'](50.23%)
+----------------------------------------------
+The label ['no'] recognition result¡G
+correct   total: 6 count.
+incorrect total: 4 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'off' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['off'](89.10%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['off'](92.08%)
+(O) [ 0a196374_nohash_1.txt ] ---> ['off'](94.27%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['off'](96.25%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['off'](99.55%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['off'](91.76%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['off'](99.42%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['off'](86.47%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['off'](87.53%)
+(O) [ 0a5636ca_nohash_1.txt ] ---> ['off'](97.38%)
+----------------------------------------------
+The label ['off'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'on' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['on'](99.80%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['on'](99.57%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['on'](89.80%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['on'](99.50%)
+(X) [ 0a5636ca_nohash_0.txt ] ---> ['up'](28.32%)
+(O) [ 0a5636ca_nohash_1.txt ] ---> ['on'](92.17%)
+(O) [ 0a5636ca_nohash_2.txt ] ---> ['on'](93.46%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['on'](99.76%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['on'](98.20%)
+(O) [ 0a9f9af7_nohash_1.txt ] ---> ['on'](99.99%)
+----------------------------------------------
+The label ['on'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'one' ] recognition result¡G
+(O) [ 00f0204f_nohash_0.txt ] ---> ['one'](99.65%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['one'](98.44%)
+(O) [ 0a196374_nohash_1.txt ] ---> ['one'](97.26%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['one'](98.37%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['one'](97.51%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['one'](59.08%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['one'](99.56%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['one'](99.73%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['one'](90.76%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['one'](100.00%)
+----------------------------------------------
+The label ['one'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'right' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['right'](93.37%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['right'](38.49%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['right'](99.87%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['right'](99.09%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['right'](97.66%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['right'](91.50%)
+(X) [ 0a5636ca_nohash_0.txt ] ---> ['backward'](87.93%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['right'](96.68%)
+(O) [ 0a7c2a8d_nohash_1.txt ] ---> ['right'](99.98%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['right'](98.15%)
+----------------------------------------------
+The label ['right'] recognition result¡G
+correct   total: 9 count.
+incorrect total: 1 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'seven' ] recognition result¡G
+(O) [ 0a0b46ae_nohash_0.txt ] ---> ['seven'](95.23%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['seven'](99.35%)
+(O) [ 0a196374_nohash_1.txt ] ---> ['seven'](97.71%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['seven'](99.95%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['seven'](99.81%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['seven'](99.60%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['seven'](99.56%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['seven'](98.21%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['seven'](99.82%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['seven'](96.09%)
+----------------------------------------------
+The label ['seven'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'sheila' ] recognition result¡G
+(O) [ 00f0204f_nohash_0.txt ] ---> ['sheila'](99.88%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['sheila'](90.04%)
+(O) [ 00f0204f_nohash_2.txt ] ---> ['sheila'](96.03%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['sheila'](47.03%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['sheila'](100.00%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['sheila'](98.11%)
+(O) [ 0a5636ca_nohash_1.txt ] ---> ['sheila'](96.02%)
+(O) [ 0aad3227_nohash_0.txt ] ---> ['sheila'](95.47%)
+(O) [ 0b09edd3_nohash_0.txt ] ---> ['sheila'](99.98%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['sheila'](96.72%)
+----------------------------------------------
+The label ['sheila'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
+>>> Folder name [ 'six' ] recognition result¡G
+(O) [ 00b01445_nohash_0.txt ] ---> ['six'](99.60%)
+(O) [ 00b01445_nohash_1.txt ] ---> ['six'](99.78%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['six'](89.09%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['six'](99.02%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['six'](100.00%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['six'](100.00%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['six'](97.81%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['six'](99.49%)
+(O) [ 0a7c2a8d_nohash_1.txt ] ---> ['six'](99.88%)
+(O) [ 0a7c2a8d_nohash_2.txt ] ---> ['six'](99.75%)
+----------------------------------------------
+The label ['six'] recognition result¡G
+correct   total: 10 count.
+incorrect total: 0 count.
+----------------------------------------------
+
+                    
 >>> Folder name [ 'stop' ] recognition result¡G
-(O) [ ffb86d3c_nohash_2.wav ] ---> ['stop']
-(O) [ ffb86d3c_nohash_3.wav ] ---> ['stop']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['stop']
-(O) [ ffbb695d_nohash_1.wav ] ---> ['stop']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['stop']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['up']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['stop']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['stop']
-(X) [ fffcabd1_nohash_0.wav ] ---> ['five']
-(X) [ fffcabd1_nohash_1.wav ] ---> ['five']
+(O) [ 0a196374_nohash_0.txt ] ---> ['stop'](99.78%)
+(O) [ 0a196374_nohash_1.txt ] ---> ['stop'](99.94%)
+(O) [ 0a196374_nohash_2.txt ] ---> ['stop'](99.48%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['stop'](99.84%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['stop'](99.60%)
+(X) [ 0a2b400e_nohash_2.txt ] ---> ['up'](97.42%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['stop'](99.24%)
+(X) [ 0a2b400e_nohash_4.txt ] ---> ['right'](66.21%)
+(X) [ 0a5636ca_nohash_0.txt ] ---> ['backward'](32.49%)
+(O) [ 0ab3b47d_nohash_0.txt ] ---> ['stop'](78.21%)
 ----------------------------------------------
 The label ['stop'] recognition result¡G
 correct   total: 7 count.
@@ -485,88 +485,88 @@ incorrect total: 3 count.
 
                     
 >>> Folder name [ 'three' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['tree']
-(X) [ ff4ed4f3_nohash_3.wav ] ---> ['marvin']
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['tree']
-(X) [ ffb86d3c_nohash_0.wav ] ---> ['two']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['two']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['three']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['visual']
-(X) [ ffd2ba2f_nohash_3.wav ] ---> ['two']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['three']
-(X) [ fffcabd1_nohash_1.wav ] ---> ['tree']
+(O) [ 00b01445_nohash_0.txt ] ---> ['three'](98.06%)
+(O) [ 00b01445_nohash_1.txt ] ---> ['three'](99.95%)
+(O) [ 00b01445_nohash_2.txt ] ---> ['three'](99.72%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['three'](99.37%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['three'](99.92%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['three'](97.51%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['three'](99.42%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['three'](96.08%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['three'](98.36%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['three'](43.20%)
 ----------------------------------------------
 The label ['three'] recognition result¡G
-correct   total: 2 count.
-incorrect total: 8 count.
+correct   total: 10 count.
+incorrect total: 0 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'tree' ] recognition result¡G
-(O) [ feb1d305_nohash_1.wav ] ---> ['tree']
-(X) [ ff0e27c3_nohash_0.wav ] ---> ['three']
-(X) [ ff21fb59_nohash_0.wav ] ---> ['two']
-(O) [ ff2b842e_nohash_0.wav ] ---> ['tree']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['tree']
-(O) [ ff63ab0b_nohash_0.wav ] ---> ['tree']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['tree']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['tree']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['tree']
-(X) [ fffcabd1_nohash_1.wav ] ---> ['three']
+(X) [ 00b01445_nohash_0.txt ] ---> ['six'](77.71%)
+(O) [ 0a196374_nohash_0.txt ] ---> ['tree'](81.60%)
+(X) [ 0a5636ca_nohash_0.txt ] ---> ['three'](91.37%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['tree'](99.96%)
+(O) [ 0ac15fe9_nohash_0.txt ] ---> ['tree'](96.91%)
+(O) [ 0b09edd3_nohash_0.txt ] ---> ['tree'](99.32%)
+(O) [ 0b40aa8e_nohash_0.txt ] ---> ['tree'](76.08%)
+(O) [ 0b56bcfe_nohash_0.txt ] ---> ['tree'](99.43%)
+(O) [ 0b77ee66_nohash_0.txt ] ---> ['tree'](99.36%)
+(O) [ 0bd689d7_nohash_0.txt ] ---> ['tree'](97.41%)
 ----------------------------------------------
 The label ['tree'] recognition result¡G
-correct   total: 7 count.
-incorrect total: 3 count.
+correct   total: 8 count.
+incorrect total: 2 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'two' ] recognition result¡G
-(O) [ ff2b842e_nohash_1.wav ] ---> ['two']
-(O) [ ff2b842e_nohash_2.wav ] ---> ['two']
-(O) [ ff2b842e_nohash_3.wav ] ---> ['two']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['down']
-(O) [ ff63ab0b_nohash_0.wav ] ---> ['two']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['two']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['go']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['two']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['two']
-(X) [ fffcabd1_nohash_0.wav ] ---> ['tree']
+(O) [ 00b01445_nohash_0.txt ] ---> ['two'](99.29%)
+(O) [ 00b01445_nohash_1.txt ] ---> ['two'](98.52%)
+(O) [ 00b01445_nohash_2.txt ] ---> ['two'](98.43%)
+(O) [ 00f0204f_nohash_0.txt ] ---> ['two'](94.12%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['two'](98.05%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['two'](99.98%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['two'](100.00%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['two'](99.86%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['two'](99.55%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['two'](71.56%)
 ----------------------------------------------
 The label ['two'] recognition result¡G
-correct   total: 7 count.
-incorrect total: 3 count.
+correct   total: 10 count.
+incorrect total: 0 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'up' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['go']
-(X) [ ff4ed4f3_nohash_0.wav ] ---> ['cat']
-(X) [ ff4ed4f3_nohash_1.wav ] ---> ['on']
-(O) [ ff63ab0b_nohash_0.wav ] ---> ['up']
-(X) [ ff63ab0b_nohash_1.wav ] ---> ['go']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['up']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['up']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['off']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['off']
-(X) [ ffd2ba2f_nohash_3.wav ] ---> ['on']
+(O) [ 00b01445_nohash_0.txt ] ---> ['up'](98.99%)
+(O) [ 00b01445_nohash_1.txt ] ---> ['up'](93.97%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['up'](99.66%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['up'](91.57%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['up'](98.52%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['up'](77.13%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['up'](99.71%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['up'](86.24%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['up'](92.72%)
+(O) [ 0a7c2a8d_nohash_1.txt ] ---> ['up'](99.97%)
 ----------------------------------------------
 The label ['up'] recognition result¡G
-correct   total: 3 count.
-incorrect total: 7 count.
+correct   total: 10 count.
+incorrect total: 0 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'visual' ] recognition result¡G
-(O) [ fdb5155e_nohash_0.wav ] ---> ['visual']
-(O) [ fe11e258_nohash_0.wav ] ---> ['visual']
-(X) [ ff0e27c3_nohash_0.wav ] ---> ['tree']
-(O) [ ff2b842e_nohash_0.wav ] ---> ['visual']
-(O) [ ff2b842e_nohash_1.wav ] ---> ['visual']
-(O) [ ff2b842e_nohash_2.wav ] ---> ['visual']
-(O) [ ff2b842e_nohash_3.wav ] ---> ['visual']
-(O) [ ff2b842e_nohash_4.wav ] ---> ['visual']
-(O) [ ff4ed4f3_nohash_0.wav ] ---> ['visual']
-(O) [ ff4ed4f3_nohash_1.wav ] ---> ['visual']
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['visual'](99.66%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['visual'](96.68%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['visual'](100.00%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['visual'](100.00%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['visual'](74.75%)
+(O) [ 0b7ee1a0_nohash_0.txt ] ---> ['visual'](99.67%)
+(O) [ 0b7ee1a0_nohash_1.txt ] ---> ['visual'](84.82%)
+(O) [ 0b7ee1a0_nohash_2.txt ] ---> ['visual'](59.80%)
+(X) [ 0b7ee1a0_nohash_3.txt ] ---> ['zero'](98.59%)
+(O) [ 0b7ee1a0_nohash_4.txt ] ---> ['visual'](99.08%)
 ----------------------------------------------
 The label ['visual'] recognition result¡G
 correct   total: 9 count.
@@ -575,56 +575,56 @@ incorrect total: 1 count.
 
                     
 >>> Folder name [ 'wow' ] recognition result¡G
-(O) [ ff21fb59_nohash_0.wav ] ---> ['wow']
-(O) [ ff21fb59_nohash_1.wav ] ---> ['wow']
-(O) [ ff2b842e_nohash_0.wav ] ---> ['wow']
-(X) [ ff63ab0b_nohash_0.wav ] ---> ['stop']
-(O) [ ff63ab0b_nohash_1.wav ] ---> ['wow']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['wow']
-(O) [ ffbb695d_nohash_0.wav ] ---> ['wow']
-(X) [ ffbb695d_nohash_1.wav ] ---> ['no']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['wow']
-(O) [ ffea4a57_nohash_0.wav ] ---> ['wow']
+(O) [ 00f0204f_nohash_0.txt ] ---> ['wow'](99.94%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['wow'](99.86%)
+(O) [ 0a0b46ae_nohash_0.txt ] ---> ['wow'](99.98%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['wow'](100.00%)
+(O) [ 0a5636ca_nohash_0.txt ] ---> ['wow'](97.45%)
+(O) [ 0a5636ca_nohash_1.txt ] ---> ['wow'](58.81%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['wow'](99.97%)
+(O) [ 0a7c2a8d_nohash_1.txt ] ---> ['wow'](100.00%)
+(O) [ 0a7c2a8d_nohash_2.txt ] ---> ['wow'](96.78%)
+(O) [ 0a7c2a8d_nohash_3.txt ] ---> ['wow'](99.98%)
 ----------------------------------------------
 The label ['wow'] recognition result¡G
-correct   total: 8 count.
-incorrect total: 2 count.
+correct   total: 10 count.
+incorrect total: 0 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'yes' ] recognition result¡G
-(X) [ ff21fb59_nohash_0.wav ] ---> ['zero']
-(O) [ ff63ab0b_nohash_0.wav ] ---> ['yes']
-(O) [ ffb86d3c_nohash_0.wav ] ---> ['yes']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['left']
-(O) [ ffbb695d_nohash_1.wav ] ---> ['yes']
-(O) [ ffd2ba2f_nohash_0.wav ] ---> ['yes']
-(O) [ ffd2ba2f_nohash_1.wav ] ---> ['yes']
-(O) [ ffd2ba2f_nohash_2.wav ] ---> ['yes']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['yes']
-(O) [ ffd2ba2f_nohash_4.wav ] ---> ['yes']
+(O) [ 00f0204f_nohash_0.txt ] ---> ['yes'](97.48%)
+(O) [ 00f0204f_nohash_1.txt ] ---> ['yes'](99.78%)
+(O) [ 00f0204f_nohash_2.txt ] ---> ['yes'](96.09%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['yes'](94.45%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['yes'](99.96%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['yes'](99.44%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['yes'](99.83%)
+(O) [ 0a7c2a8d_nohash_0.txt ] ---> ['yes'](89.69%)
+(O) [ 0a9f9af7_nohash_0.txt ] ---> ['yes'](59.82%)
+(O) [ 0a9f9af7_nohash_1.txt ] ---> ['yes'](99.14%)
 ----------------------------------------------
 The label ['yes'] recognition result¡G
-correct   total: 8 count.
-incorrect total: 2 count.
+correct   total: 10 count.
+incorrect total: 0 count.
 ----------------------------------------------
 
                     
 >>> Folder name [ 'zero' ] recognition result¡G
-(O) [ ffb86d3c_nohash_1.wav ] ---> ['zero']
-(X) [ ffbb695d_nohash_0.wav ] ---> ['three']
-(X) [ ffbb695d_nohash_1.wav ] ---> ['nine']
-(O) [ ffbb695d_nohash_2.wav ] ---> ['zero']
-(X) [ ffd2ba2f_nohash_0.wav ] ---> ['go']
-(X) [ ffd2ba2f_nohash_1.wav ] ---> ['go']
-(X) [ ffd2ba2f_nohash_2.wav ] ---> ['go']
-(O) [ ffd2ba2f_nohash_3.wav ] ---> ['zero']
-(X) [ ffd2ba2f_nohash_4.wav ] ---> ['go']
-(O) [ fffcabd1_nohash_0.wav ] ---> ['zero']
+(O) [ 0a196374_nohash_0.txt ] ---> ['zero'](99.63%)
+(O) [ 0a196374_nohash_1.txt ] ---> ['zero'](66.78%)
+(O) [ 0a196374_nohash_2.txt ] ---> ['zero'](97.53%)
+(X) [ 0a196374_nohash_3.txt ] ---> ['visual'](99.64%)
+(O) [ 0a196374_nohash_4.txt ] ---> ['zero'](99.47%)
+(O) [ 0a2b400e_nohash_0.txt ] ---> ['zero'](98.84%)
+(O) [ 0a2b400e_nohash_1.txt ] ---> ['zero'](98.29%)
+(O) [ 0a2b400e_nohash_2.txt ] ---> ['zero'](93.09%)
+(O) [ 0a2b400e_nohash_3.txt ] ---> ['zero'](98.00%)
+(O) [ 0a2b400e_nohash_4.txt ] ---> ['zero'](98.80%)
 ----------------------------------------------
 The label ['zero'] recognition result¡G
-correct   total: 4 count.
-incorrect total: 6 count.
+correct   total: 9 count.
+incorrect total: 1 count.
 ----------------------------------------------
 
                     
@@ -632,8 +632,8 @@ incorrect total: 6 count.
 
                 --------------------------------------
                 Audio Prediction Data Quantity¡G350
-                correct   total: 173 count.
-                incorrect total: 177 count.
+                correct   total: 319 count.
+                incorrect total: 31 count.
                 --------------------------------------
-                Full Speed Time: 30.93s
+                Full Speed Time: 6.29s
                 

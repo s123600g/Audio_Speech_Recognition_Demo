@@ -31,14 +31,15 @@ How to convert keras(h5) file to a tflite file?
 https://stackoverflow.com/questions/53256877/how-to-convert-kerash5-file-to-a-tflite-file
 
 需注意！！！
-'lite.TFLiteConverter.from_keras_model_file()' 要求tensorflow版本最低為 1.12
-針對 1.9-1.11 版本 使用 'lite.TocoConverter'
-針對 1.7-1.8 版本 使用 'lite.toco_convert'
+'tf.contrib.lite.TFLiteConverter.from_keras_model_file()' 要求tensorflow版本最低為 1.12
+針對 1.9-1.11 版本 使用 'tf.contrib.lite.TocoConverter'
+針對 1.7-1.8 版本 使用 'tf.contrib.lite.toco_convert'
 '''
 
-from tensorflow.contrib import lite
+
 from Config import Config
 
+import tensorflow as tf
 import argparse
 import os
 import time
@@ -126,7 +127,7 @@ if __name__ == "__main__":
             )
 
         ''' 讀取來源模型，進行轉換模型為TFLite格式模型 '''
-        converter = lite.TFLiteConverter.from_keras_model_file(
+        converter = tf.contrib.lite.TFLiteConverter.from_keras_model_file(
             input_model_path
         )
         tflite_model = converter.convert()

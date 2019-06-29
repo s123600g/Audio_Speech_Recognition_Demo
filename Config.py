@@ -52,17 +52,17 @@ class Config(object):
     Log_ClassLabelsData_name = str(
         Log_ClassLabelsData_DirectoryName + "." + log_file_type)
 
+    Log_TensorBoard_DirectoryName = "TensorBoard"
+    Log_TensorBoard_Path = os.path.join(
+        os.getcwd(), Log_DirectoryName, Log_TensorBoard_DirectoryName, "logs"
+    )
+
     ''' 輸出訓練過程變化圖檔案參數配置 '''
     Plot_Figure_DirectoryName = "plot_figure"
 
-    ''' 轉換模型參數設置 '''
-    Input_Model_Path = os.path.join(os.getcwd(), "model")
-    Output_Model_Path = os.path.join(
-        os.getcwd(), "tflite_model", "ASR_Model.tflite")
-
     ''' 資料參數設置 '''
     # 限制使用的Data總量
-    data_quantity_max = 1200
+    data_quantity_max = 450
     sample_rate = 16000
     max_pad_len = 11
     class_num = 0
@@ -89,24 +89,22 @@ class Config(object):
     Model_DirectoryName = "model"
     Model_Name = "Speech_Recognition_Model.h5"
     Model_Weight_Name = "Speech_Recognition_Weight.h5"
+
     Model_Path = os.path.join(os.getcwd(), Model_DirectoryName, Model_Name)
     Model_Weight_Path = os.path.join(
         os.getcwd(), Model_DirectoryName, Model_Weight_Name)
+    Input_Model_Path = os.path.join(
+        os.getcwd(), Model_DirectoryName
+    )
+    Output_Model_Path = os.path.join(
+        os.getcwd(), "tflite_model", "ASR_Model.tflite"
+    )
+    Model_checkpoints_DirectoryName = "checkpoints"
+    Model_checkpoints_Path = os.path.join(
+        os.getcwd(), Model_checkpoints_DirectoryName, Model_checkpoints_DirectoryName
+    )
 
-    '''模型訓練參數配置-CNN'''
-    batch_size = 35
-    epochs = 1000
-    verbose = 1
-    CNN_optimizer = 'Adadelta'
-    CNN_loss = 'categorical_crossentropy'
-
-    CNN_inputlayer_conv2D_hidden_unit = 32
-    CNN_inputlayer_Activation = 'relu'
-    CNN_inputlayer_conv2D_kernel_size = (2, 2)
-    CNN_inputlayer_conv2D_padding = 'same'
-    CNN_MaxPooling2D_pool_size = (2, 2)
-    CNN_Dropout = 0.25
-    CNN_full_connectionlayer_Dense = 128
-    CNN_full_connectionlayer_Activation = 'relu'
-    CNN_full_connectionlayer_Dropout = 0.25
-    CNN_ouputlayer_Activation = 'softmax'
+    Model_ModelCheckpoint_DirectoryName = "ModelCheckpoint"
+    Model_ModelCheckpoint_Path = os.path.join(
+        os.getcwd(), Model_DirectoryName, Model_ModelCheckpoint_DirectoryName
+    )

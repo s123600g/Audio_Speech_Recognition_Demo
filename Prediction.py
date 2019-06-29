@@ -22,11 +22,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 '''
 
-from keras.models import load_model
-from keras.applications.imagenet_utils import decode_predictions
+# from keras.models import load_model
+from tensorflow.keras.models import load_model
+# from keras.applications.imagenet_utils import decode_predictions
 from Config import Config
 
 import os
@@ -44,7 +44,7 @@ dbconn = sqlite3.connect(
 )
 
 curs = dbconn.cursor()
-
+batch_size = 126
 correct_count = 0
 err_count = 0
 is_one_line = True
@@ -164,16 +164,47 @@ if __name__ == "__main__":
 
                     for read_file in os.listdir(os.path.join(Config.Prediction_Audio_Data_Path, read_item)):
 
-                        # 擷取語音wav檔案MFCC特徵值
-                        mfcc_data = gen_wav_mfcc(
-                            os.path.join(
-                                Config.Prediction_Audio_Data_Path,
-                                read_item,
-                                read_file
-                            ),
-                            Config.sample_rate,
-                            Config.max_pad_len,
-                        )
+                        # # 擷取語音wav檔案MFCC特徵值
+                        # mfcc_data = gen_wav_mfcc(
+                        #     os.path.join(
+                        #         Config.Prediction_Audio_Data_Path,
+                        #         read_item,
+                        #         read_file
+                        #     ),
+                        #     Config.sample_rate,
+                        #     Config.max_pad_len,
+                        # )
+
+                        mfcc_data = list()
+                        temp_readlines = ""
+
+                        # print("[prediction] {}".format(os.path.join(
+                        #     Config.Prediction_Audio_Data_Path, read_item, read_file)))
+
+                        with open(os.path.join(Config.Prediction_Audio_Data_Path, read_item, read_file), "r") as r:
+
+                            temp_readlines = r.readlines()
+
+                        # print("[prediction] {}".format(temp_readlines))
+
+                        # print("[prediction] read_item：{}".format(read_item))
+                        # print("[prediction] {}".format(os.path.join(Config.Prediction_Audio_Data_Path, read_item, read_file)))
+
+                        temp_list = list()
+
+                        for read_row in temp_readlines:
+
+                            for read_column in str(read_row).rstrip(" \n").split(" "):
+
+                                temp_list.append(
+                                    float(read_column)
+                                )
+
+                            mfcc_data.append(
+                                temp_list
+                            )
+
+                            temp_list = list()
 
                         ''' 將音頻MFCC特徵矩陣轉換為numpy array '''
                         mfcc_data = np.array(mfcc_data)
@@ -191,11 +222,13 @@ if __name__ == "__main__":
                         ''' 進行語音預測 '''
                         predict_result = get_model.predict(
                             mfcc_data,
-                            batch_size=Config.batch_size
+                            batch_size=batch_size
                         )
 
                         get_prediction_index = np.argmax(predict_result[0])
 
+                        # print("{:.2f}%".format(
+                        #     (predict_result[0][get_prediction_index] * 100)))
                         # print("{}".format(get_prediction_index))
 
                         ''' 查詢預測出來分類編號對應分類名稱 '''
@@ -214,14 +247,16 @@ if __name__ == "__main__":
                         ''' 判斷識別分類結果是否正確 '''
                         if SQL_result[0][0] == read_item:
 
-                            print("(O) [ {} ] ---> [ '{}' ]".format(
+                            print("(O) [ {} ] ---> [ '{}' ]({:.2f}%)".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
-                            filewrite.write("(O) [ {} ] ---> ['{}']\n".format(
+                            filewrite.write("(O) [ {} ] ---> ['{}']({:.2f}%)\n".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
                             correct_count += 1
@@ -229,14 +264,16 @@ if __name__ == "__main__":
 
                         else:
 
-                            print("(X) [ {} ] ---> [ '{}' ]".format(
+                            print("(X) [ {} ] ---> [ '{}' ]({:.2f}%)".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
-                            filewrite.write("(X) [ {} ] ---> ['{}']\n".format(
+                            filewrite.write("(X) [ {} ] ---> ['{}']({:.2f}%)\n".format(
                                 read_file,
-                                SQL_result[0][0]
+                                SQL_result[0][0],
+                                (predict_result[0][get_prediction_index] * 100)
                             ))
 
                             err_count += 1
